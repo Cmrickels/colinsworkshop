@@ -1,0 +1,50 @@
+.wp-social-row * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wp-social-row{
+    width: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.wp-social-row:before,
+.wp-social-row:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.wp-social-col-full,
+.wp-social-col-half{
+     width: 100%;
+     float: left;
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-top:10px;
+     padding-bottom:10px;
+}
+
+.row-collapse{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.wp-social-row .wp-color-result{
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .wp-social-col-half{
+         width: 50%;
+    }
+}
+
+.wp-social-row label {
+    padding: 0 0 10px;
+    display: block;
+}
